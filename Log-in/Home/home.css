@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    padding: 0;
+    padding-top: 0;
+    margin-top: auto;
+    animation-name: all;
+    animation-duration: 5s;
+}
+
+@keyframes all {
+    0% {
+        opacity: 0;
+    }    
+}
+
+header {
+    background-image: url("./images.jpg");
+    background-repeat: no-repeat;
+    margin: 0;
+    background-size: cover;
+    padding: 0;
+    display: flex;
+    margin-bottom: 1px;
+    box-shadow: 10px 10px 10px rgb(143, 143, 143);
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+ul a {
+    background-color: aqua;
+    color: black;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+ul {
+    margin-left: 450px;
+}
+
+.img {
+    height: 150px;
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+h3 {
+    background-color: aquamarine;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 80px;
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+#G {
+    background-color: aquamarine;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100px;
+    margin-left: 60px;
+}
+
+#sta {
+    background-color: aquamarine;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 120px;
+    margin-left: 40px;
+}
+
+
+#cloths {
+    border: 2px solid black;
+    display: inline-block;
+    padding: 15px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    margin-left: 0px;
+    margin-top: 100px;
+    text-align: center;
+    box-shadow: 5px 5px 5px gray;
+    overflow: hidden;
+    transition: all 2s;
+    
+}
+
+#cloths:hover {
+    border: 4px solid green;
+    background-color: rgb(0, 255, 191);    
+}
+
+#cloths1:hover {
+    border: 4px solid green;
+    background-color: rgb(0, 255, 191);
+    
+}
+
+#cloths2:hover {
+    
+    border: 4px solid green;
+    background-color: rgb(0, 255, 191);
+}
+
+#cloths3:hover {
+    
+    border: 4px solid green;
+    background-color: rgb(0, 255, 191);
+}
+
+#cloths1 {
+    border: 2px solid black;
+    display: inline-block;
+    padding: 15px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 100px;
+    text-align: center;
+    box-shadow: 5px 5px 5px gray;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 2s;
+}
+
+#cloths2 {
+    border: 2px solid black;
+    display: inline-block;
+    padding: 15px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 100px;
+    text-align: center;
+    box-shadow: 5px 5px 5px gray;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 2s;
+}
+
+#cloths3 {
+    border: 2px solid black;
+    display: inline-block;
+    padding: 15px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 100px;
+    text-align: center;
+    box-shadow: 5px 5px 5px gray;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 2s;
+}
+
+
+#catagori {
+    text-align: center;
+}

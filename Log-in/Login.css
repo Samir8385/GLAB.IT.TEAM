@@ -1,0 +1,68 @@
+body{
+    margin: none;
+    padding: none;
+    text-align: center;
+    justify-content: center;
+    padding-top: 100px;
+    background-image: url(./bailey-zindel-NRQV-hBF10M-unsplash\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    animation-name: h1;
+    animation-duration: 2s;
+}
+
+@keyframes h1 {
+    0% {
+        color: transparent;
+    }
+    
+}
+
+form {
+    border: 2px solid black;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 15px;
+    animation-name: form;
+    animation-duration: 5s;
+}
+
+@keyframes form {
+    0% {
+        opacity: 0;
+    }    
+}
+
+input {
+    border: 2px solid rgb(0, 185, 15);
+    width: 250px;
+    height: 15px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: green;
+    outline: green;
+}
+
+button {
+    background-color: transparent;
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: aquamarine;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
